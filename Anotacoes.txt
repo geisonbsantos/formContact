@@ -1,0 +1,27 @@
+Anotações
+
+Links:
+1- https://www.staticforms.xyz/  --> Site manipulador de e-mails
+
+Aulas:
+1- Criando Formulário de Contato com HTML e CSS (Front End)
+2- Aula 24 - Como enviar e-mail pelo formulário de contato
+
+
+
+
+
+or create a new repository on the command line
+echo "# formContact" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:geisonbsantos/formContact.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin git@github.com:geisonbsantos/formContact.git
+git branch -M main
+git push -u origin main
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.

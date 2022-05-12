@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="texto">
+            <div><h1>CHEGOU A HORA DE MUDAR O JOGO!</h1></div>
+            <div><p class="paragrafo">Preencha o formulário e solicite uma proposta para sua empresa.</p></div>
+            <div><h2>Nosso time está pronto para te atender.</h2></div>
+        </div>
+        <div class="formulario">
+            <form id="contact" action="" method="post">
+                <div>
+                    <input name="nome" placeholder="Seu nome" type="text" tabindex="1" required autofocus>
+                </div>
+                <div>
+                    <input name="email" placeholder="Seu e-mail" type="email" tabindex="2" required>
+                </div>
+                <div>
+                    <input name="telefone" placeholder="Seu telefone" type="tel" tabindex="3" required>
+                </div>
+                <div>
+                    <textarea name="mensagem" placeholder="Digite sua mensagem aqui..." type="text" tabindex="4" required></textarea>
+                </div>
+                <div>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Solicitar Proposta</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
